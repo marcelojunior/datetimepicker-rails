@@ -1222,9 +1222,9 @@
     headTemplate:
       '<thead>' +
         '<tr>' +
-          '<th class="prev"><i class="fa fa-chevron-left"></i></th>' +
+          '<th class="prev"><i class="fa fa-chevron-left fa-fw"></i></th>' +
           '<th colspan="5" class="switch"></th>' +
-          '<th class="next"><i class="fa fa-chevron-right"></i></th>' +
+          '<th class="next"><i class="fa fa-chevron-right fa-fw"></i></th>' +
         '</tr>' +
       '</thead>',
     contTemplate: '<tbody><tr><td colspan="7"></td></tr></tbody>'
@@ -1260,12 +1260,12 @@
         (is12Hours ? ' data-hour-format="12"' : '') +
         '>' +
         '<tr>' +
-          '<td><a href="#" class="btn" data-action="incrementHours"><i class="fa fa-chevron-up"></i></a></td>' +
+          '<td><a href="#" class="btn" data-action="incrementHours"><i class="fa fa-chevron-up fa-fw"></i></a></td>' +
           '<td class="separator"></td>' +
-          '<td><a href="#" class="btn" data-action="incrementMinutes"><i class="fa fa-chevron-up"></i></a></td>' +
+          '<td><a href="#" class="btn" data-action="incrementMinutes"><i class="fa fa-chevron-up fa-fw"></i></a></td>' +
           (showSeconds ?
           '<td class="separator"></td>' +
-          '<td><a href="#" class="btn" data-action="incrementSeconds"><i class="fa fa-chevron-up"></i></a></td>': '')+
+          '<td><a href="#" class="btn" data-action="incrementSeconds"><i class="fa fa-chevron-up fa-fw"></i></a></td>': '')+
           (is12Hours ? '<td class="separator"></td>' : '') +
         '</tr>' +
         '<tr>' +
@@ -1282,12 +1282,12 @@
           '</td>' : '') +
         '</tr>' +
         '<tr>' +
-          '<td><a href="#" class="btn" data-action="decrementHours"><i class="fa fa-chevron-down"></i></a></td>' +
+          '<td><a href="#" class="btn" data-action="decrementHours"><i class="fa fa-chevron-down fa-fw"></i></a></td>' +
           '<td class="separator"></td>' +
-          '<td><a href="#" class="btn" data-action="decrementMinutes"><i class="fa fa-chevron-down"></i></a></td>' +
+          '<td><a href="#" class="btn" data-action="decrementMinutes"><i class="fa fa-chevron-down fa-fw"></i></a></td>' +
           (showSeconds ?
           '<td class="separator"></td>' +
-          '<td><a href="#" class="btn" data-action="decrementSeconds"><i class="fa fa-chevron-down"></i></a></td>': '') +
+          '<td><a href="#" class="btn" data-action="decrementSeconds"><i class="fa fa-chevron-down fa-fw"></i></a></td>': '') +
           (is12Hours ? '<td class="separator"></td>' : '') +
         '</tr>' +
       '</table>' +
