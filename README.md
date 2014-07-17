@@ -27,7 +27,7 @@ Add this line to your application's Gemfile:
 
 So install it from the git by:
 
-    gem 'datetimepicker-rails', :require => 'datetimepicker-rails', :git => 'git://github.com/zpaulovics/datetimepicker-rails.git'
+    gem 'datetimepicker-rails', :git => 'git://github.com/marcelojunior/datetimepicker-rails.git'
 
 And then execute:
 
